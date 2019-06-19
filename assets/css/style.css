@@ -513,6 +513,12 @@ button i {
     margin-left: 75px;
 }
 
+.contact-section {
+     margin-bottom: 0;
+     padding-top: 90px;
+     margin-left: 75px;
+}
+
 .projects {
      padding-top: 90px;
      /* margin-left: 75px; */
@@ -540,7 +546,7 @@ img {
 #linebreak{
     justify-content: center;
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
     Background: #282828;
@@ -588,7 +594,7 @@ footer {
       display: flex;
       align-items: center;
       flex-direction: column;
-         justify-content: space-around;
+        justify-content: space-around;
       Background: #282828;
       Background: linear-gradient(-45deg, #EE7752, #E73C73, #23A6D5, #23D5AB);
       Background-size: 400% 400%;
