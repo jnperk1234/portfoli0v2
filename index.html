@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css'>
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Jessica perkins Porfolio Page</title>
@@ -26,13 +27,17 @@
                 <li><a class="smoothscroll" href="#about-section">About</a></li>
                 <li><a class="smoothscroll" href="#skill-section">Skills</a></li>
                 <li><a class="smoothscroll" href="#work-section">Work</a></li>
-                <li><a class="smoothscroll" href="#contact">Contact</a></li>
+                <li><a class="smoothscroll" href="#contact-section">Contact</a></li>
             </ul>
           </nav>
         </div>
       </div>
         <h1 class="wrapheader">Hello, My Name is Jessica</h1>
         <h2>I am <span class="typed"></span></h2>
+        <div class="container" id="ball">
+          <a href="#about-section" class="hide-on-palm arrow-down"><span class="fa-stack fa-3x"><i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-chevron-down fa-stack-1x"></i></span></a>
+        </div>
         <!-- <div class = “media”>
           <ul>
             <li><a href="https://github.com/jnperk1234" target="_blank" class="github-link"><i
@@ -53,6 +58,7 @@
   <div class="container" id="about-section">
     <div class="row">
         <h1>A little Something About Me...</h1>
+
     </div>
     <div class="block"></div>
      <br>
@@ -63,17 +69,19 @@
           <img src="https://via.placeholder.com/300" class="profile-pic">
         </div> -->
         <div class="col-8">
-          <p class="about me">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-            dolore
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.
-          </p>
+          <p class="about-me"><strong>Adulting</strong>:   Hello! Hello! I am Front-End Web Developer who dabbles in graphic design working and living in Dallas, Texas. To put it simple, I have a bachelors in a career that is not my passion, but not I’m ready to dive head first my true calling: Web Development and Digital Design! I am passionate in creating, clean, unique, bold, sleek designs and innovated apps. My goal: to create bold, beautiful designs that both look and functions beautifully. </p>
+            <p class="about-me"><strong>IRL</strong>: I am a geek/nerd culture connoisseur who love to game and draw anime character (DeviantArt link at the bottom)  as hobby. I also have four-year-old Cavalier King Charles Spaniel named Buster. He is the goodest, spoilest boy.
+            </p>
          </div>
          <div class="col-3">
-            <img src="https://via.placeholder.com/300" class="profile-pic">
+            <!-- <div class="container">
+              <div class="profilepics">
+                <div><img src="https://via.placeholder.com/300"></div>
+                <div><img src="https://via.placeholder.com/300"></div>
+                <div><img src="https://via.placeholder.com/300"></div>
+              </div>
+            </div> -->
+            <img src="assets/img/Perkins, Jessica.jpg" class="profile-pic" alt="Picture of Me"
          </div>
       </div>
     </div>
@@ -150,20 +158,26 @@
   <div class="block"></div>
   <div class="projects">
     <div class="row">
-      <div class="col-sm-3"><img class="work-pic" src="assets/img/Rnmort.jpg"></div>
+      <div class="col-sm-3">
+       <a href="#img1"><img src="assets/img/Rnmort.jpg" class="img-thumbnail"></a>
+       <a href="#_" class="lightbox" id="img1"><img src="assets/img/Rnmort.jpg"></a>
+      </div>
       <div class="col-sm-8">
-        <p class="about-me">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        <p class="work-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea
           commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
           nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
           id est laborum.</p>
-         
-         <h5><span class="badge badge-info">HTML5</span> <span class="badge badge-info">CSS3</span> <span class="badge badge-info">JavaScript</span></h3>
 
+         <h5><span class="badge badge-info">HTML5</span> <span class="badge badge-info">CSS3</span> <span class="badge badge-info">JavaScript</span></h3>
+        <div class="button-live">
+          <a href="assets/demos/ricknmortyhangman-master/index.html" class="btn btn-demoButton" role="button">Live Demo  <span><i class="far fa-play-circle"></i></span></a> <span><a href="#" class="btn btn-gitButton" role="button">GitHub Repo <span><i class="fab fa-github-alt"></i></span></a></span>
+        </div>
       </div>
     </div>
     <br>
+    <hr>
     <br>
     <div class="row">
       <div class="col-sm-3"><img class="work-pic" src="https://via.placeholder.com/400"></div>
@@ -190,7 +204,7 @@
       </div>
     </div>
     <br>
-    <br>
+    <!-- <br>
     <div class="row">
       <div class="col-sm-3"><img class="work-pic" src="https://via.placeholder.com/400"></div>
       <div class="col-sm-8">
@@ -255,10 +269,10 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <br>
 <div class="container-fluid" id="linebreak"></div>
-  <div class="contact-section">
+  <div class="contact-section" id="contact-section">
     <div class="container">
 
       <h2>Contact Me</h2>
@@ -289,7 +303,7 @@
 
 <footer class="text-center">
   <div class="social-icons">
-    <a href="https://github.com/jnperk1234" target="_blank" class="github-link"><i class="fab fa-github-alt fa-1x fa-fw "></i></a> 
+    <a href="https://github.com/jnperk1234" target="_blank" class="github-link"><i class="fab fa-github-alt fa-1x fa-fw "></i></a>
     <a href="https://www.linkedin.com/in/jessica-perkins0304/" target="_blank" class="linkedin-link"><i
           class="fab fa-linkedin fa-1x fa-fw "></a></i>
      <a href="https://www.facebook.com/jessica.perkins.7965" target="_blank" class="facebook-link"><i
@@ -302,11 +316,12 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js'></script>
+  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js'></script> -->
 <script src="assets/js/index.js"></script>
 <script>
 
